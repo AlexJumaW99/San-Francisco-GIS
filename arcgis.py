@@ -7,7 +7,7 @@ from geopy.geocoders import ArcGIS
 #os.listdir()
 
 #store the ArcGis object in a variable 
-nom = ArcGIS()
+nom = ArcGIS(timeout=2)
 
 #import pandas so we read the csv file containing the companies' various info 
 import pandas 
